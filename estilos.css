@@ -1,0 +1,83 @@
+*{
+	font-family: 'Anton',gorgia ;
+	font-weight: 100;
+	fout-size: 30px;
+}
+
+h2 {
+	background-color: red;
+	display: inline-block;
+	
+
+	padding-top: 20px;  		/*padding para arriba */
+	padding-bottom:20px;		/*padding para abajo */
+	padding-left: 20px;			/*padding para la izquierda */
+	padding-right: 20px;		/*padding para la derecha */
+}
+
+h3 {
+	padding: 20px;				/*padding para de 20px para todos los lados */
+
+}
+h4 {
+	background-color: blue;
+	display: inline-block;
+	padding: 20px 50px;
+	height: 300px;
+	width: 300px;
+	box-sizing: border-box;		/*border-box*/
+	text-align: center; 		/*Posiciona el texto en la caja*/
+
+}
+
+h5 {
+	background-color: red;
+	display: inline-block;
+	padding: 100px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 10px;				/*Margen entre cajas*/
+	border-radius:25px 			/*Redonde las esquinas */
+	
+
+}
+
+h6 {
+	background-color: green;
+	display: inline-block;
+	padding: 100px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 10px;			
+
+ 								/*Bordes*/
+
+	border-radius:25px;
+ 								/*Tipos de borde*/
+
+	border: 4px solid; 			/*Borde de linea gruesa */
+	border: 4px dashed;			/*Borde de liena punteada*/
+	border: 4px double;			/*Borde de liena doble */
+	border: 4px inset ;			/*Borde metalico */
+	border: 4px outset;			/*Borde metalico invertido */
+	border: 4px groove ;		/*Borde metalico doble */
+	border: 4px ridge ;			/*Borde metalico doble invertido */
+
+	border: 10px solid blue; 	/*Borde de linea gruesa, azul*/
+	
+
+}
+h7 {
+	background-color: yellow;
+	display: inline-block;
+	padding: 100px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 10px;				
+	border-radius:25px;
+
+	box-shadow: 0px 0px 15px 10px #000;	 	/*Sombra de la caja */
+	text-shadow: 2px 2px 7px #000;			/*Sombra de las letras */
+	transform: rotate(-15deg); 				/*rota las cajas */
+
+}
